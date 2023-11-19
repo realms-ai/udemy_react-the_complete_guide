@@ -1,0 +1,44 @@
+# Ignoring Node Modules
+/**/*/node_modules
+/node_modules
+# **/*/.next
+
+# Ignoring Log Files
+/**/*/*.log
+
+# Ignore src/generated folder for schema.ts
+# /**/*/build/
+
+# Ignore .env Files
+**/*/.env
+**/*/.venv
+
+
+# Ignore VsCode Configuration and DS Store
+**/*/.vscode
+**/*/.DS_Store
+**/*/.lock*
+
+
+# Distribution / packaging
+**/*/.Python
+**/*/env/
+# **/*/build/
+**/*/develop-eggs/
+**/*/dist/
+**/*/downloads/
+**/*/eggs/
+**/*/.eggs/
+**/*/lib/
+**/*/lib64/
+**/*/parts/
+**/*/sdist/
+**/*/var/
+**/*/*.egg-info/
+**/*/.installed.cfg
+**/*/*.egg
+
+# Serverless directories
+**/*/.serverless
+
+# /engines/files/*
